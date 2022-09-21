@@ -1,14 +1,13 @@
 <template>
   <Nav />
 
-  <Login />
+  <router-view />
 </template>
 
 <script>
 import Nav from "@/components/Nav";
-import Login from "@/views/Login";
 export default {
-  components: {Nav, Login}
+  components: {Nav}
 }
 </script>
 
