@@ -1,4 +1,5 @@
 <template>
+  <Nav />
   <main class="form-signin w-100 m-auto">
     <form>
       <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
@@ -16,6 +17,13 @@
     </form>
   </main>
 </template>
+
+<script>
+import Nav from "@/components/Nav";
+export default {
+  components: {Nav}
+}
+</script>
 
 <style>
 .form-signin {
